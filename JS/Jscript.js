@@ -13,3 +13,9 @@ let nota4 = prompt("Digite a quarta nota: ")
 nota4 = Number(nota4)
 let media = (nota1 + nota2 + nota3 + nota4) / 4
 alert(`A média de ${Nome} foi ${media}`)
+
+if(media >= 6) {
+    alert("Parabéns você foi aprovado!")
+} else {
+    alert("Sinto muito você foi reprovado, estude mais")
+}
