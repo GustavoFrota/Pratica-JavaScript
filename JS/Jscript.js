@@ -1,7 +1,7 @@
-alert("Sistema de notas")
-let Nome = prompt("Digite o seu primeiro nome") 
-let Sobrenome = prompt("Digite o seu sobrenome") 
-alert(`Olá, me chamo ${Nome} ${Sobrenome} !`)
+alert("Sistema de Notas")
+let Nome = prompt("Digite o primeiro nome do estudante") 
+let Sobrenome = prompt("Digite o sobrenome do estudante") 
+alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas`)
 
 let nota1 = prompt("Digite a primeira nota: ")
 nota1 = Number(nota1)
@@ -25,7 +25,7 @@ switch(true) {
      alert("Aprovado")
      break;
     case(media >= 5):
-     alert("Recuperacção")
+     alert("Recuperação")
      break;
     default:
         alert("Reprovado")
