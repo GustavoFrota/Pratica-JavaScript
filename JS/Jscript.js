@@ -27,5 +27,4 @@ switch(true) {
     default:
         alert("Reprovado")
         break;
-    
 }
