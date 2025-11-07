@@ -15,7 +15,10 @@ let media = (nota1 + nota2 + nota3 + nota4) / 4
 alert(`A média de ${Nome} foi ${media}`)
 
 switch(true) {
-    case(media >= 9):
+    case(media > 10):
+     alert("Média acima de 10, tente novamente")
+    break;
+    case(media == 10):
      alert(`Exelente! Continue assim ${Nome}.`)
      break;
     case(media >= 7):
