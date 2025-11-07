@@ -16,7 +16,7 @@ alert(`A média de ${Nome} foi ${media}`)
 
 switch(true) {
     case(media >= 9):
-     alert("Exelente! Continue assim")
+     alert(`Exelente! Continue assim ${Nome}.`)
      break;
     case(media >= 7):
      alert("Aprovado")
