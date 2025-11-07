@@ -14,8 +14,18 @@ nota4 = Number(nota4)
 let media = (nota1 + nota2 + nota3 + nota4) / 4
 alert(`A média de ${Nome} foi ${media}`)
 
-if(media >= 6) {
-    alert("Parabéns você foi aprovado!")
-} else {
-    alert("Sinto muito você foi reprovado, estude mais")
+switch(true) {
+    case(media >= 9):
+     alert("Exelente! Continue assim")
+     break;
+    case(media >= 7):
+     alert("Aprovado")
+     break;
+    case(media >= 5):
+     alert("Recuperacção")
+     break;
+    default:
+        alert("Reprovado")
+        break;
+    
 }
