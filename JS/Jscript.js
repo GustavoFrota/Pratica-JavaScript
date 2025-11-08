@@ -25,11 +25,13 @@ let nota10 = prompt("Digite a nota de biologia: ")
 nota10 = Number(nota10)
 let nota11 = prompt("digite a nota de artes: ")
 nota11 = Number(nota11)
+let nota12 = prompt("Digite a nota de educaão física: ")
+nota12 = Number(nota12)
 
-if(isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4) || isNaN(nota5) || isNaN(nota6) || isNaN(nota7) || isNaN(nota8) || isNaN(nota9) || isNaN(nota10) || isNaN(nota11)) {
+if(isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4) || isNaN(nota5) || isNaN(nota6) || isNaN(nota7) || isNaN(nota8) || isNaN(nota9) || isNaN(nota10) || isNaN(nota11) || isNaN(nota12)) {
   alert("Por favor, digite apenas números válidos")  
 } else {
-let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10 + nota11) / 11
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10 + nota11 + nota12) / 12
 let media_formatada = media.toFixed(1)
 alert(`A média de ${Nome} foi ${media_formatada}`) 
 
