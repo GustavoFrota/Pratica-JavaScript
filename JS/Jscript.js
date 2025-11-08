@@ -27,7 +27,8 @@ let nota11 = prompt("digite a nota de artes: ")
 nota11 = Number(nota11)
 
 let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10 + nota11) / 11
-alert(`A média de ${Nome} foi ${media}`)
+let media_formatada = media.toFixed(1)
+alert(`A média de ${Nome} foi ${media_formatada}`)
 
 switch(true) {
     case(media > 10):
