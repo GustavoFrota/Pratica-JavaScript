@@ -1,13 +1,18 @@
 alert("Olá")
-let Atual = prompt("Digite o ano atual: ")
-Atual = Number(Atual)
-let Anterior = prompt("Digite o ano em que você nasceu: ")
-Anterior = Number(Anterior)
-let Idade = Atual - Anterior
-alert(`Você tem ${Idade} anos!`)
-if(Idade >= 18) {
-    alert("Você é adulto.")
-}
-else {
-    alert("Você é uma criança.")
+let dia_aniversario = prompt("Digite o dia do seu aniversário: ")
+dia_aniversario = Number(dia_aniversario)
+let mes_aniversario = prompt("Digite o mês do seu aniversário: ")
+mes_aniversario = Number(mes_aniversario)
+let festa = [dia_aniversario, mes_aniversario]
+
+let dia = prompt("Digite o dia: ")
+dia = Number(dia)
+let mes = prompt("Digite o mês: ")
+mes = Number(mes)
+let surpresa = [dia, mes]
+
+if(festa[0] === surpresa[0] && festa[1] === surpresa[1]) {
+  alert("Feliz aniversário!")
+} else {
+  alert("Hoje não é seu aniversário")
 }
