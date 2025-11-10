@@ -37,7 +37,7 @@ alert(`A média de ${Nome} foi ${media_formatada}`)
 
 switch(true) {
     case(media > 10):
-     alert("Média acima de 10 , tente novamente")
+     alert("Média acima de 10. Tente novamente")
     break;
     case(media == 10):
      alert(`Exelente! Continue assim ${Nome}.`)
