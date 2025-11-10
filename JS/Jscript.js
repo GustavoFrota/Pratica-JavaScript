@@ -1,8 +1,9 @@
 alert("-----Sistema de Notas-----")
 let instituição = prompt("Digite o nome da Escola: ")
 let Nome = prompt("Digite o primeiro nome do estudante: ") 
-let Sobrenome = prompt("Digite o sobrenome do estudante: ") 
-alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas da escola ${instituição}`)
+let Sobrenome = prompt("Digite o sobrenome do estudante: ")
+let serie = prompt("Digite a série do(a) estudante: ") 
+alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas da Escola ${instituição}`)
 
 let nota1 = prompt("Digite a nota de português: ")
 nota1 = Number(nota1)
@@ -34,7 +35,7 @@ if(isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4) || isNaN(nota5) 
 } else {
 let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10 + nota11 + nota12) / 12
 let media_formatada = media.toFixed(1)
-alert(`A média de ${Nome} foi ${media_formatada}`) 
+alert(`A média de ${Nome} da série ${serie} foi ${media_formatada}`) 
 
 switch(true) {
     case(media > 10):
