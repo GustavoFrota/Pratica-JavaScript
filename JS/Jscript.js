@@ -1,7 +1,8 @@
 alert("-----Sistema de Notas-----")
-let Nome = prompt("Digite o primeiro nome do estudante") 
-let Sobrenome = prompt("Digite o sobrenome do estudante") 
-alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas`)
+let instituição = prompt("Digite o nome da Escola: ")
+let Nome = prompt("Digite o primeiro nome do estudante: ") 
+let Sobrenome = prompt("Digite o sobrenome do estudante: ") 
+alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas da escola ${instituição}`)
 
 let nota1 = prompt("Digite a nota de português: ")
 nota1 = Number(nota1)
