@@ -17,10 +17,10 @@ mes = Number(mes)
 if(isNaN(dia) || isNaN(mes)) {
   alert("Por favor digite apenas números")
 } else {
-let surpresa = [dia, mes] }
+let surpresa = [dia, mes] 
 
 if(festa[0] === surpresa[0] && festa[1] === surpresa[1]) {
   alert("Feliz aniversário!")
 } else {
   alert("Hoje não é seu aniversário")
-} //Ainda não está funcionando 100% 
+} }//Ainda não está funcionando 100% 
