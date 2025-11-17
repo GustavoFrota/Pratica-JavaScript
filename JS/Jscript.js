@@ -1,4 +1,4 @@
-alert("-----Sistema de Notas-----")
+alert("-----Sistema de notas-----")
 let instituição = prompt("Digite o nome da Escola: ")
 let Nome = prompt("Digite o primeiro nome do estudante: ") 
 let Sobrenome = prompt("Digite o sobrenome do estudante: ")
