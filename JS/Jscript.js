@@ -1,9 +1,10 @@
-
-let instituição = prompt("Digite o nome da Escola: ")
-let Nome = prompt("Digite o primeiro nome do estudante: ") 
-let Sobrenome = prompt("Digite o sobrenome do estudante: ")
-let serie = prompt("Digite a série do(a) estudante: ") 
+function agir () {
+let instituição = document.getElementById("escola").value
+let Nome = document.getElementById("nome").value
+let Sobrenome = document.getElementById("sobrenome").value
+let serie = document.getElementById("serie").value
 alert(`Bem-vindo(a) ${Nome} ${Sobrenome} ao Sistema de Notas da Escola ${instituição}`)
+}
 
 let nota1 = prompt("Digite a nota de português: ")
 nota1 = Number(nota1)
