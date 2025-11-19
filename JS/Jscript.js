@@ -32,5 +32,5 @@ if (media >= 7) {
 } else {
   situacao = " reprovado"
 }
-document.getElementById("resultado").innerHTML = `A situação de ${Nome} ${Sobrenome} da série ${serie} é ${situacao}`
+document.getElementById("resultado").innerHTML = `Média: ${media}. A situação de ${Nome} ${Sobrenome} da série ${serie} é ${situacao}`
 }
